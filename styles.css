@@ -1,0 +1,103 @@
+@media screen and (max-width: 768px) {
+  .download-button {
+    margin: 1em auto;
+    width: 40%; /* Adjust button width on small screens */
+  }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #414141; /* Light red background */
+  color: #ffffff;
+}
+
+header {
+  background-color: #e63946; /* Vibrant red */
+  color: white;
+  text-align: center;
+  padding: 1.8em 0; /* Larger padding for header */
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em; /* Larger title size */
+  letter-spacing: 2px; /* Slight spacing for emphasis */
+}
+
+div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  color: #e63946; /* Red for subheadings */
+  margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.8; /* Improve readability */
+  font-size: 18px;
+}
+
+.download-button {
+  display: inline-block;
+  text-align: center;
+  padding: 18px;
+  margin: 1em 200px;
+  background: #e63946; /* Bold red button */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border-radius: 8px;
+  transition: background 0.3s;
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  height: 30px;            /* Make sure there's enough height */
+  min-width: 200px; /* Ensures consistent button size */
+}
+
+.download-button1 {
+  padding: 0.3em 0.3em;
+  background: #e63946; /* Bold red button */
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.warn {
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  height: 30px;            /* Make sure there's enough height */
+  color: rgb(255, 154, 154);
+  font-family: 'Gill Sans';
+  margin-top: 1em; /* Adds spacing between the warning and the buttons */
+}
+
+
+.download-button:hover {
+  background: #d62839; /* Slightly darker red on hover */
+}
+
+ol {
+  padding-left: 1.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em 0;
+  background: #333;
+  color: white;
+  margin-top: 2em;
+}
+
+footer p {
+  font-size: 1.2em; /* Larger footer text */
+}
